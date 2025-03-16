@@ -1,0 +1,63 @@
+body {
+    background-image: url('Background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: ##7bf542;
+    font-family: 'Century Gothic', sans-serif;
+    margin: 0;
+   
+}
+
+div {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #f5da42;
+    
+}
+
+.stanza:nth-of-type(1) {
+    color: #e74c3c;
+    font-size: 20px;
+}
+
+.stanza:nth-of-type(2) {
+    color: #2ecc71;
+    font-size: 20px;
+}
+
+.stanza:nth-of-type(3) {
+    color: #2980b9;
+    font-size: 20px;
+}
+
+.stanza:nth-of-type(4) {
+    color: #f39c12;
+    font-size: 20px;
+}
+
+.stanza:hover {
+    color: #1abc9c;
+    
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 14px;
+    color: ##7bf542;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer i {
+    font-size: 13px;
+    color: ##7bf542;
+}
