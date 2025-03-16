@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>E-Portfolio ICT_GOMEZ_FAIRNESS </title>
+<style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(snowy.jpeg); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+    
+ 
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(211, 238, 252, 0.9);
+        padding: 15px;
+        border-bottom: 4px solid #84c2f7;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #084a91; 
+        font-size: 20px; 
+        font-weight: bold;
+        padding: 10px 20px;
+        margin: 0 10px; 
+        border-radius: 5px;
+    }
+
+    .navbar a:hover {
+        background-color: #84c2f7; 
+        color: white; 
+    }
+     body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+</style>
+</head>
+<body background="backgroundimage4.jpg">
+
+<table class="navbar">
+<tr>
+<td><a href="FINAL home.html">Home</a></td>
+<td><a href="about.html">About Me</a></td>
+<td><a href="activities.html">1st Quarter Activities</a></td>
+<td><a href="2nd Quarter Activities.html">2nd Quarter Activities</a></td>
+<td><a href="3rd Quarter Activities.html">3rd Quarter Activities</a></td>
+<td><a href="#">4th Quarter Activities</a></td>
+<td><a href="reflection.html">Reflection</a></td>
+</tr>
+</table>
+  <audio id="myAudio">
+        <source src="POKEMON.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <button onclick="playAudio()">Play Sound</button>
+
+    <script>
+        function playAudio() {
+            let audio = document.getElementById("myAudio");
+            audio.play();
+        }
+    </script>
+
+<h1 align="center" bgcolor="green">ACTIVITIES AND BROWSER OUTPUT</h1>
+
+<table border="3" bgcolor="#328482" width="85%" align="center" style="text-align:center;">
+    <tr>
+      <td colspan="2" class="heading"> <b> <font size="9">LESSON 1 AND 2 CODE </font> </b> </td>
+    </tr>
+    <tr>
+      <td><img src="4thquartercode1.png" alt="Image of a code"><p class="caption"> CODE FOR LESSON 1</p></td>
+      <td><img src="4thquartercode2.png" alt="Image of a lesson"><p class="caption"> CODE FOR LESSON 2 2</p></td>
+    </tr>
+    <tr>
+     <td colspan="2" class="heading"> <b> <font size="9">LESSON 3 AND 4 CODE </font> </b> </td>
+    </tr>
+    <tr>
+      <td><img src="4thquartercode3.png" alt="Placeholder Image 3"><p class="caption"> CODE FOR LESSON 3 </p></td>
+      <td><img src="4thquartercode4.png" alt="Placeholder Image 4"><p class="caption"> CODE FOR LESSON 4 </p></td>
+    </tr>
+</table>
+
+<h1 align="center">LESSONS</h1>
+<table border="3" cellpadding="1" cellspacing="5" bgcolor="#328482" width="80%" align="center">
+<tr>
+<td> <font size="7"> LESSON 1 </font> </td>
+<td> <img src="4thquarterlesson1.jpg" style="width: 100%; height: 100%;"> </td>
+<td> <font size="7"> LESSON 2 </font> </td>
+<td> <img src="4thquarterlesson2.jpg" style="width: 100%; height: 100%;"> </td>
+</tr>
+<tr>
+<td> <font size="7"> LESSON 3 </font> </td>
+<td> <img src="4thquarterlesson3.jpg" style="width: 100%; height: 100%;"> </td>
+<td> <font size="7"> LESSON 4 </font> </td>
+<td> <img src="4thquarterlesson4.jpg" style="width: 100%; height: 100%;"> </td>
+</tr>
+</table>
+
+<h1 align="center">PICTURES AND VIDEOS</h1>
+<table border="3" cellpadding="1" cellspacing="5" bgcolor="lightblue" width="90%" align="center">
+<tr> 
+<td style="width: 40%"> <font size="4"> <font size="10" align="center"> BATTLE OF THE BANDS </font> <br> This is one of the best event that LPSCI held. I didnt regret going here and the music was so good. I love all the performers and im looking forward to next year BOTB.   </font> </td>
+<td style="width: 40%"> <img src="BOTB.jpg" style="width: 100%; height: 5%;"> </td>
+</tr> 
+<tr>
+<td> <font size="4"> <font size="10" align="center"> BULLYING POSTER </font> <br> One of the most crammed project this 4th quarter. This project was given to us in the worst possible time since the hell week has lots of summative and other output that is deadline. I still love this project since it was very cool and we had teamwork in doing it.  </font> </td>
+<td> <img src="BULLYINGPOSTER.jpg" style="width: 100%; height: 10%;"> </td>
+</tr> 
+<tr>
+<td> <font size="4"> <font size="10" align="center"> ENGLISH PLAY PRACTICE </font> <br> Major PT of 4th quarter, many subject collab in this and a lot of time has been given to us for this practice. This is one of the best PT since it reminds me of Ibong Adarna play. We had lots of fights but we resolve it as a section. Even though we got stress, im glad that we got stress as a section, and we'll overcome those challenges as a section. We got more closer and had fun. </font> </td>
+<td> <img src="ENGLISHPLAY.jpg" style="width: 100%; height: 10%;"> </td>
+</tr> 
+<tr>
+<td> <font size="4"> <font size="10" align="center"> KUNDIMAN </font> <br> I love the chemistry of other student in performing it. Even though its not a typical song that is played in todays world, the song was still amazing. I got entertain and love this event. It really went well and all performers did their best.  </font> </td>
+<td> <img src="KUNDIMAN.jpg" style="width: 100%; height: 10%;"> </td>
+</tr> 
+<tr>
+<td> <font size="4"> <font size="10" align="center"> MAPEH ZUMBA </font> <br> VERY VERY STRESSING PT. We had lots of issue and problem. We got problems on who to follow since our group was seperate into 2 side. Even though that happened, we still crammed it and our performance went well. THe practice and pressure of this PT is insane. Its so tiring but worth it.   </font> </td>
+<td> <img src="MAPEHZUMBA.jpg" style="width: 100%; height: 10%;"> </td>
+</tr>
+<tr>
+<td> <font size="4"> <font size="10" align="center"> FILIPINO MONOLOGO </font> <br> This was really recent and stressing. The deadline was fast and we had to film in on our house. It was harder for me because i couldn't find a place that is quiet and I look like an idiot videoing myself. I'll probably get a low score cause all the noise and not a good performance but atleast its done. </font> </td>
+<td> <img src="MONOLOGO.jpg" style="width: 100%; height: 10%;"> </td>
+</tr>
+<tr>
+<td> <font size="4"><font size="10" align="center"> STREET DANCE </font> <br> ALL THE PERFORMANCE WAS SO AMAZING. I love how they all dance and it was so hot and hyping. I love the perfomance of our section aswell as faith and family. They were really good and i couldnt imagine how much effort and time that took. The dances went well and I wish that it lasted a bit longer since it was so good.   </font> </td>
+<td> <img src="STREETDANCE.jpg" style="width: 100%; height: 10%;"> </td>
+</tr>
+</table>
+</body>
+</html>

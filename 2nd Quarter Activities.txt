@@ -1,0 +1,190 @@
+<html>
+<head>
+  <style>
+    .navbar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(211, 238, 252, 0.9);
+      padding: 15px;
+      border-bottom: 4px solid #84c2f7;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #084a91;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px 20px;
+      margin: 0 10px;
+      border-radius: 5px;
+    }
+
+    .navbar a:hover {
+      background-color: #84c2f7;
+      color: white;
+    }
+
+    table {
+      width: 100%;
+      border-spacing: 20px;
+    }
+
+    td {
+      text-align: center;
+      vertical-align: top;
+      border: 5px solid #084a91; /* Blue border around each image */
+      padding: 15px;
+      background-color: #d1e7f7; /* Light blue background */
+    }
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      border: 3px solid #084a91; /* Blue border for the image itself */
+      border-radius: 10px;
+    }
+
+    .heading {
+      font-size: 24px;
+      font-weight: bold;
+      color: #084a91;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .caption {
+      font-size: 18px;
+      font-weight: bold;
+      color: #2a6478;
+      text-align: center;
+    }
+
+    .important-events {
+      margin-top: 50px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #084a91;
+      text-align: center;
+    }
+
+    .line {
+      border-top: 5px solid #084a91;
+      margin: 20px 0;
+    }
+     body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+  </style>
+</head>
+<body background="backgroundimage2.jpg">
+  <div class="navbar">
+    <a href="FINAL home.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="activities.html">1st Quarter Activities</a>
+    <a href="#"> 2nd Quarter Activities </a>
+    <a href="3rd Quarter Activities.html">3rd Quarter Activities</a>
+    <a href="4th Quarter Activities.html">4th Quarter Activities</a>
+    <a href="reflection.html">Reflection</a>
+  </div>
+ <audio id="myAudio">
+        <source src="RATDANCE.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <button onclick="playAudio()">Play Sound</button>
+
+    <script>
+        function playAudio() {
+            let audio = document.getElementById("myAudio");
+            audio.play();
+        }
+    </script>
+  <table>
+    <tr>
+      <td colspan="2" class="heading"> <b> Lesson 1 and 2 </b> </td>
+    </tr>
+    <tr>
+      <td><img src="LESSON 1 AND 2 CODE.png" alt="Image of a code"><p class="caption">Code For Lesson 1 and 2</p></td>
+      <td><img src="Lesson 1 and 2 lesson.png" alt="Image of a lesson"><p class="caption"> Lesson 1 and 2</p></td>
+    </tr>
+    <tr>
+      <td colspan="2" class="heading"> <b> Lesson 3 </b> </td>
+    </tr>
+    <tr>
+      <td><img src="LESSON 3 CODE.png" alt="Placeholder Image 3"><p class="caption"> Code for lesson 3 </p></td>
+      <td><img src="lesson 3 lesson.png" alt="Placeholder Image 4"><p class="caption"> Lesson 3 </p></td>
+    </tr>
+    <tr>
+      <td colspan="2" class="heading"> <b> Lesson 4 </b> </td>
+    </tr>
+    <tr>
+      <td><img src="LESSON 4 CODE.png" alt="Placeholder Image 5"><p class="caption"> Code for lesson 4 </p></td>
+      <td><img src="lesson 4 lesson.png" alt="Placeholder Image 6"><p class="caption"> lesson 4 </p></td>
+    </tr>
+    <tr>
+      <td colspan="2" class="heading"> <b> Lesson 5 </b> </td>
+    </tr>
+    <tr>
+      <td><img src="LESSON 5 CODE.png" alt="Placeholder Image 7"><p class="caption"> Code for lesson 5 </p></td>
+      <td><img src="lesson 5 lesson.png" alt="Placeholder Image 8"><p class="caption">  lesson 5 </p></td>
+    </tr>
+    <tr>
+      <td colspan="2" class="heading"> <b> Lesson 6 </b> </td>
+    </tr>
+    <tr>
+      <td><img src="LESSON 6 CODE.png" alt="Placeholder Image 9"><p class="caption"> Code for lesson 6 </p></td>
+      <td><img src="lesson 6 lesson.png" alt="Placeholder Image 10"><p class="caption"> lesson 6 </p></td>
+    </tr>
+    <tr>
+      <td colspan="2" class="heading"> <b> Lesson 7 </b></td>
+    </tr>
+    <tr>
+      <td><img src="LESSON 7 CODE.png" alt="Placeholder Image 11"><p class="caption">Code for lesson 7</p></td>
+      <td><img src="lesson 7 lesson.png" alt="Placeholder Image 12"><p class="caption"> lesson 7</p></td>
+    </tr>
+  </table>
+
+  <!-- Important Events Section -->
+  <div class="important-events">
+    <p>Important Events</p>
+  </div>
+
+
+  <table>
+    <tr>
+      <td><p class="caption"> Teachers Day was one of the most memorable experience we had. A lot of my classmate enjoyed and althogh it was kinda short,
+       we had lots of hearbreaking moments. Ms Uminga was viibing with us and it was also enjoyable cause of the games ad experience we had. the food was 
+       also delicious. From the Mini Teacher that we didnt listen to and make it a joke activivity. We thank our teachers especially our adviser for always
+        supporting us and helping us learn. They are not just our teachers but our second parents that is always there for us.</p></td>
+      <td><img src="Teachers Day.jpg" alt="Image of Teachers Day"></td>
+    </tr>
+    <tr>
+      <td><img src="AP costume designing.jpg" alt="Image of Event "></td>
+      <td><p class="caption"> A lot of pressure, drama and moments. WHen we design the costume a lot of stressing happens cause we need to compete with other sections. Although it was a whole competition we learned the importance of having fun and making memories with our classmates. This is one of the best class activities we had cause we had a huge bonding as a class and our connection grew. </p></td>
+    </tr>
+    <tr>
+      <td><p class="caption"> This is a similar event in the second image. This one is when we present it to the judges and to the teachers and student. We were happy of the hard work we had and we cheer our representative until we cant breath. I also liked the representatives of other section especially the one where they turned the gown into an armor,I WAS SHOCK and amazed on that. All the representatives slayed and they showed how each of them is powerful and influencial in their own way. We might not have won but we one in our hearts </p></td>
+      <td><img src="AP culture.jpg" alt="Image of Event 3"></td>
+    </tr>
+    <tr>
+      <td><img src="BOOK costume.jpg" alt="Image of an event"></td>
+      <td><p class="caption"> This is also one of the class project we had. I helped with the script here and we also design a fight. We put make up on our representative and made them practice their move and lines. It was STUNNING I love other representatives from the book cause they actually did so good. Like the joker and harley quinn and the charisma of beauty and the beast and other duos. They were prepared and even though it had some problems, like technical porblems, the event was a success. I LOVE THE REPRESENTATIVE'S PERFORMANCE, some of them even overdo it.</p></td>
+    </tr>
+    <tr>
+      <td><p class="caption"> This is the opening of intrams and ONE OF THE TIME WHERE THE YELLOW REPRESENTATIVES WON. I can say that it was loud, the crowd was loud, cheerful, and energized. The people are also competitive. This was our representatives in grade 10 and the guy did so well in performing. Aside from that , their every move was precise and good. They really show everyone how its done and how to win. Really awesome and remarkable. The opening was also in a whole different moement cause everyone was really LOUD to the point you cant hear a thing. I love this event and wishing for more intrams next year. </p></td>
+      <td><img src="INTRAMS .jpg" alt="Image of Event 5"></td>
+    </tr>
+    <tr>
+      <td><img src="Persona articulata.jpg" alt="Image of Event"></td>
+      <td><p class="caption"> My friend Georgina was part of this. The event was about brain and perception of things. A lot of contestant are asked a quaestion and they answered it back. It is up to them how they will interpret it and answer it in their own way. I wasnt able to attend this but I watch some parts and it was great.The qestions made me wonder and overthink and analyze. My friend georgina did great and im proud of her and our representatives also won. This event will make you wonder a lot of things and question a lot of concepts in your life. </p></td>
+    </tr>
+  </table>
+
+  <div class="line"></div>
+</body>
+</html>

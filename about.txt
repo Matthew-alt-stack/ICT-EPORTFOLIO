@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<head>
+    <title>About Me - E-Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(snowy.jpeg); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+    
+ 
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(211, 238, 252, 0.9);
+        padding: 15px;
+        border-bottom: 4px solid #84c2f7;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #084a91; 
+        font-size: 20px; 
+        font-weight: bold;
+        padding: 10px 20px;
+        margin: 0 10px; 
+        border-radius: 5px;
+    }
+
+    .navbar a:hover {
+        background-color: #84c2f7; 
+        color: white; 
+    }
+
+
+
+        .content {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #046ba6;
+            text-shadow: 2px 2px 4px #84c2f7;
+        }
+
+      
+        .info-table {
+            margin: 0 auto;
+            width: 85%;
+            background-color: rgba(234, 248, 255, 0.9);
+            border: 4px solid #046ba6;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        .info-table ul {
+            list-style-type: square;
+            padding: 0;
+        }
+
+        .info-table li {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #084a91;
+        }
+
+        /* Placeholders */
+        .placeholders {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px auto;
+            width: 85%;
+        }
+
+        .image-container, .video-container {
+            width: 45%;
+            border: 4px solid #046ba6;
+            border-radius: 10px;
+            background-color: #eaf8ff;
+            overflow: hidden;
+        }
+
+        .image-container img {
+            width: 100%; /* Ensures the image fits the container */
+            height: auto; /* Maintains aspect ratio */
+        }
+
+        .video-container video {
+            width: 100%;
+            height: 100%; /* Adjust video to fit the container */
+            object-fit: cover;
+        }
+
+        .video-caption {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #046ba6;
+        }
+         body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     }
+    </style>
+</head>
+<body>
+   <div class="navbar">
+    <a href="FINAL home.html">Home</a>
+    <a href="#">About Me</a>
+    <a href="activities.html"> Activities</a>
+    <a href="reflection.html">Reflection</a>
+</div>
+
+   
+    <div class="content">
+         <audio id="myAudio">
+        <source src="POKEMON.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <button onclick="playAudio()">Play Sound</button>
+
+    <script>
+        function playAudio() {
+            let audio = document.getElementById("myAudio");
+            audio.play();
+        }
+    </script>
+
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+        <h1>About Me</h1>
+
+       
+        <div class="info-table">
+            <ul>
+                <li>I am 14 years old, male and I live in Las Piñas City.</li>
+                <li>I am 5'9" or 175 cm.</li>
+                <li>My parents are Gerald B. Gomez and Emelie B. Gomez.</li>
+                <li>My school is Las Piñas City National Science High School.</li>
+                <li>I am a Filipino that grew up here in the Philippines.</li>
+                <li>My dream job is to become an accountant, own a business, and invest in stocks.</li>
+                <li>My goal this year is to have high grades and still be in the star section next year.</li>
+                <li>I can solve a Rubik's cube in 1 minute, swim well, and I am good at chess.</li>
+                <li>My favorite game is Mobile Legends.</li>
+                <li>My hobbies are listening to music and watching videos/movies I find interesting.</li>
+                <li>My favorite subject is math, and my least favorite is ICT.</li>
+                <li>My favorite food is carbonara or any pasta.</li>
+                <li>My favorite drinks are soda and milk tea, but I dislike coffee.</li>
+                <li>My favorite toy is cars.</li>
+                <li>I have a phobia of heights.</li>
+                <li>My status is alive (single).</li>
+                <li>My first real crush in high school is Jandi.</li>
+                <li>My dream car is a Lamborghini.</li>
+                <li>My favorite movies are *Chucky*, *Maze Runner*, *Ready Player One*, and all Marvel/DC movies.</li>
+                <li>My favorite places are Enchanted Kingdom and Star City.</li>
+                <li>I almost died three times: by drowning, almost getting hit by a truck, and getting lost.</li>
+                <li>My biggest flaw is being direct about things and having low EQ.</li>
+                <li>I want to achieve higher EQ, intelligence, mindfulness, and happiness in life.</li>
+                <li>My biggest regret is not trying and being afraid of new experiences.</li>
+                <li>The most enjoyable moments this quarter were the AP costume activity and VPOP preparation.</li>
+                <li>I like to cram my homework and assignments.</li>
+            </ul>
+        </div>
+
+        <div class="placeholders">
+            <div class="image-container">
+                <img src="collage.jpg" alt="Collage">
+            </div>
+            <div class="video-container">
+                <video controls>
+                    <source src="video1.mp4" type="video/mp4"> 
+                   .
+                </video>
+                <div class="video-caption">Video of me and my favorite cousin</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
