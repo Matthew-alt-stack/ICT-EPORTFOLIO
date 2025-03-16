@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ICT E-Portfolio</title>
+    <script type="text/javascript">
+        function check() {
+            var userAnswer = document.forms["example"]["answer"].value; // Correct form reference
+
+            if (userAnswer == "330") { 
+                window.location.href = "About.html"; // Redirect if correct
+            } else if (userAnswer == "") { 
+                alert("No answer was recorded. Try again!"); 
+            } else { 
+                alert("Not quite. Try again!");
+            }
+        }
+
+        function addNumbers() {
+            var num1 = Number(document.sumForm.num1.value);
+            var num2 = Number(document.sumForm.num2.value);
+            var num3 = Number(document.sumForm.num3.value);
+            var num4 = Number(document.sumForm.num4.value);
+            
+            var sum = num1 + num2 + num3 + num4;
+            document.sumForm.total.value = sum; // Display result in total field
+        }
+    </script>
+</head>
+
+<body style="font-family: Arial; text-align: center; background-color: #2382c2;">
+
+    <h1>Answer this super hard question:</h1>
+    <p>You can use a calculator to get the right answer.</p>
+    <h4>Answer correctly to gain access to the E-Portfolio.</h4>
+    <h3>What is 89 + 76 + 69 + 96?</h3>
+
+    <form name="example">
+        <input type="text" name="answer" placeholder="Enter answer">
+        <input type="button" name="answerbutton" value="SUBMIT" onclick="check()">
+    </form>
+
+    <hr>
+
+    <!-- New addition: Sum of four numbers -->
+    <h2>Add Four Numbers</h2>
+
+    <form name="sumForm">
+        <input type="number" name="num1" placeholder="Enter first number"> +
+        <input type="number" name="num2" placeholder="Enter second number"> +
+        <input type="number" name="num3" placeholder="Enter third number"> +
+        <input type="number" name="num4" placeholder="Enter fourth number">
+        <br><br>
+        <input type="text" name="total" readonly placeholder="Total sum">
+        <br><br>
+        <input type="button" value="Calculate Sum" onclick="addNumbers()">
+    </form>
+
+</body>
+</html>
